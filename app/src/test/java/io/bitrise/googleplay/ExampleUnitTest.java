@@ -14,4 +14,14 @@ public class ExampleUnitTest {
     public void addition_isCorrect() throws Exception {
         assertEquals(4, 2 + 2);
     }
+
+    @Test
+    public void addition_twodigits_isCorrect() throws Exception {
+        assertEquals(44, 22 + 22);
+    }
+
+    @Test
+    public void addition_big_isCorrect() throws Exception {
+        assertEquals(4444, 2222 + 2222);
+    }
 }
